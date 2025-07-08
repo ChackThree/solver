@@ -237,10 +237,6 @@ class TurnstileSolverServer:
     return data, status_code
 
 
-
-TurnstileSolverServer(host="0.0.0.0", port=80, secret="nop69").run()
-
-
 class _Quart(Quart):
   def __init__(self, *args, **kwargs):
     super().__init__(*args, **kwargs)
@@ -253,3 +249,6 @@ class _Quart(Quart):
       "Access-Control-Allow-Private-Network": "true",
     }
     return res
+
+
+TurnstileSolverServer(host="0.0.0.0", port=80, secret="nop69").run()
