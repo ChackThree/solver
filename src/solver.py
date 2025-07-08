@@ -237,6 +237,10 @@ class TurnstileSolverServer:
     return data, status_code
 
 
+
+TurnstileSolverSever(host="0.0.0.0", port=80, secret="nop69").run()
+
+
 class _Quart(Quart):
   def __init__(self, *args, **kwargs):
     super().__init__(*args, **kwargs)
