@@ -251,4 +251,4 @@ class _Quart(Quart):
     return res
 
 
-TurnstileSolverServer(host="0.0.0.0", port=80, secret="nop69").run()
+asyncio.run(TurnstileSolverServer(host="0.0.0.0", port=80, secret="nop69").run())
