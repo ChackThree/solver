@@ -238,7 +238,7 @@ class TurnstileSolverServer:
 
 
 
-TurnstileSolverSever(host="0.0.0.0", port=80, secret="nop69").run()
+TurnstileSolverServer(host="0.0.0.0", port=80, secret="nop69").run()
 
 
 class _Quart(Quart):
