@@ -249,6 +249,3 @@ class _Quart(Quart):
       "Access-Control-Allow-Private-Network": "true",
     }
     return res
-
-
-asyncio.run(TurnstileSolverServer(host="0.0.0.0", port=80, secret="nop69").run())
